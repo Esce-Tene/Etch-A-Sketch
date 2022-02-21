@@ -29,13 +29,6 @@ function hoverColor($event) {
   item.classList.add('white');
 }
 
-function promptPlayer() {
-  prompt("Enter a grid size")
-    if (prompt > 100) {
-      alert("No")
-    }
-}
-
 button.addEventListener('click', () => {
   container.textContent = "";
   let promptPlayer = prompt("Enter a grid size")
